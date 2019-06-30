@@ -1,4 +1,8 @@
 a=input("Enter 'a' value: ")
 b=input("Enter 'b' value: ")
-c=a/b
-print(c)
+if(b==0):
+    print("Divide by zero error")
+    return True 
+else:
+    c=a/b
+    print(c)
